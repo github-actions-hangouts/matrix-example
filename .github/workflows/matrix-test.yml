@@ -7,8 +7,8 @@ on:
 jobs:
   matrix-test:
     strategy:
-      matrix:
-        fail-fast: false
+      fail-fast: false
+      matrix:        
         os: [ubuntu-latest, macos-latest, windows-latest]
         python: [3.6, 3.8]
 
